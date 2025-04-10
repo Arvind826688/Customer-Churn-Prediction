@@ -1,0 +1,10 @@
+customer-churn-app/
+├── .gitignore                 # Specifies intentionally untracked files that Git should ignore
+├── app.py                     # The Streamlit application script
+├── churn_analysis.ipynb       # Jupyter Notebook for EDA, preprocessing, training
+├── churn_model_pipeline.joblib # Saved trained model pipeline (output of notebook)
+├── preprocessor_details.joblib # Saved numerical/categorical feature lists (output of notebook)
+├── feature_columns.joblib     # Saved list of original feature columns (output of notebook)
+├── feature_importances.csv    # Optional: Saved feature importances (output of notebook)
+├── requirements.txt           # Python dependencies for the project
+└── WA_Fn-UseC_-Telco-Customer-Churn.csv # The dataset file
